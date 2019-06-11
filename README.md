@@ -34,7 +34,13 @@ Create bootable USB using one of the provided software, using downloaded image o
 - [Start ais.sh](ais.sh)
 - Updates and Upgrades
 - Installs software that I need (Developer oriented)
-  - latest Python3
-  - latest Java JDK
-  - git
-  - unetbootin
+  - latest Python3, Java JDK, git
+  - unetbootin, PulseAudio, GNOME Tweaks
+  - Atom, IntelliJ IDEA Comunity, IntelliJ PyCharm Community, jdeveloper
+  - DB Browser SQLlite, MySQL Workbench, SQL DEVELOPER
+  - Gitkraken, filezilla
+  - GIMP, inkscape, darktable, RawTherapee, Blender, Pick
+  - Libre office, thunderbird, amarok, vlc
+  - Virtualbox, PuttySSH, XAMPP
+  - Transmission, Steam
+  - Chromium, Opera
