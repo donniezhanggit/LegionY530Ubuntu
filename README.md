@@ -31,7 +31,10 @@ Create bootable USB using one of the provided software, using downloaded image o
 
 ## 3. After installation
 ### 3.1. Start **ais.sh** script
-- [Contribution guidelines for this project](ais.sh)
-- found in repo (https://github.com/crazieNephilim/LegionY530-Ubuntu18.04.2/blob/master/ais.sh)
-- updates and upgrades
-- installs software that I need (Developer oriented)
+- [Start ais.sh](ais.sh)
+- Updates and Upgrades
+- Installs software that I need (Developer oriented)
+  - latest Python3
+  - latest Java JDK
+  - git
+  - unetbootin
