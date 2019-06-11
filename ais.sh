@@ -13,27 +13,63 @@
 
 # Update and upgrade
 echo "*** UPDATE and UPGRADE *** START ***"
-sudo apt-get update && sudo apt-get upgrade
-echo "*** UPDATE and UPGRADE *** END ***"
+sudo apt-get update && sudo apt-get upgrade -y
 
+cho "*** NVIDIA DRIVERS *** START ***"
 # Nvidia drivers
 # Remove old drivers
-sudo apt-get purge nvidia*
+3 sudo apt-get purge nvidia*
 # Get Repo
 sudo add-apt-repository ppa:graphics-drivers -y
 sudo apt-get update
 # Safeguard SSH
-sudo apt-get install screen
-screen
+# sudo apt-get install screen
+# screen
 # List drivers
-ubuntu-drivers list
+# ubuntu-drivers list
 # Install driver
-sudo apt-get install nvidia-driver-390
+sudo apt-get install nvidia-driver-390 -y
 # Install Check
-nvidia-smi
+# nvidia-smi
+
+cho "*** PYTHON & JAVA *** START ***"
+# Python 3 lastest
+sudo apt-get install python3 -y
+# Java JDK latest
+sudo apt install default-jre -y
 
 # unetbootin
 echo "*** unetbootin *** START ***"
 sudo add-apt-repository ppa:gezakovacs/ppa -y
 sudo apt-get install unetbootin -y
-echo "*** unetbootin *** END ***"
+
+# Sound
+sudo apt install pulseaudio -y
+sudo apt install pavucontrol
+
+# Media Codecs
+sudo apt install ubuntu-restricted-extras -y
+
+# Flatpak FEDORA
+sudo apt install flatpak -y
+sudo apt install gnome-software-plugin-flatpak -y
+
+# GNOME Tweak
+sudo apt install gnome-tweak-tool -y
+
+# Atom
+sudo add-apt-repository ppa:webupd8team/atom -y
+sudo apt update -y
+sudo apt install atom -y
+
+# GIMP
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge -y
+sudo apt update && sudo apt install gimp gimp-gmic -y
+
+# Inkscape
+sudo add-apt-repository ppa:inkscape.dev/stable -y
+sudo apt-get update -y
+sudo apt-get install inkscape -y
+
+# Cleanup
+sudo apt autoremove -y
