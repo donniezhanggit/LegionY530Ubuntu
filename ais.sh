@@ -37,6 +37,8 @@ cho "*** PYTHON & JAVA *** START ***"
 sudo apt-get install python3 -y
 # Java JDK latest
 sudo apt install default-jre -y
+# Git
+sudo apt install git -y
 
 # unetbootin
 echo "*** unetbootin *** START ***"
