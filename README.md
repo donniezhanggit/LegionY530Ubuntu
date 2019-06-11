@@ -33,6 +33,7 @@ Create bootable USB using one of the provided software, using downloaded image o
 ### 3.1. Start **ais.sh** script
 - [Start ais.sh](ais.sh)
 - Updates and Upgrades
+- Installs latest working nvidia drivers
 - Installs software that I need (Developer oriented)
   - latest Python3, Java JDK, git
   - unetbootin, PulseAudio, GNOME Tweaks
