@@ -75,3 +75,6 @@ sudo apt-get install inkscape -y
 
 # Cleanup
 sudo apt autoremove -y
+
+# SQLdeveloper - first download rpm from oracle
+sudo apt install sqldeveloper-package 
