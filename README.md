@@ -46,3 +46,14 @@ Create bootable USB using one of the provided software, using downloaded image o
   - ~~Virtualbox, PuttySSH, XAMPP~~
   - ~~Transmission, Steam~~
   - ~~Chromium, Opera~~
+
+
+## 4. Most used commands
+```
+sudo apt-get update && sudo apt-get upgrade
+
+sudo apt-get autoremove
+
+sudo apt-get update --fix-missing
+sudo apt-get install -f
+```
