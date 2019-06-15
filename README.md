@@ -40,9 +40,9 @@ Create bootable USB using one of the provided software, using downloaded image o
   - unetbootin, PulseAudio, GNOME Tweaks
   - Atom, ~~IntelliJ IDEA Comunity, IntelliJ PyCharm Community, jdeveloper~~
   - DB Browser SQLlite, MySQL Workbench, ~~SQL DEVELOPER~~
-  - ~~Gitkraken, filezilla~~
+  - ~~GitHubDesktop, filezilla~~
   - GIMP, inkscape, ~~darktable, RawTherapee, Blender, Pick, (Something for screen capture)~~
   - ~~Libre office, thunderbird, amarok, vlc~~
-  - ~~Virtualbox, PuttySSH, XAMPP
-  - ~~Transmission, Steam
-  - ~~Chromium, Opera
+  - ~~Virtualbox, PuttySSH, XAMPP~~
+  - ~~Transmission, Steam~~
+  - ~~Chromium, Opera~~
