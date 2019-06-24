@@ -1,4 +1,4 @@
-# LegionY530-Ubuntu18.04.2
+# LegionY530 Ubuntu 
 Step by step guide to install Ubuntu Bionic Beaver on Lenovo Legion Y530, with after install script
 
 
