@@ -31,7 +31,7 @@ Create bootable USB using one of the provided software, using downloaded image o
 
 ## 3. After installation
 ### 3.1. Start **ais.sh** script
-- [Start ais.sh](ais.sh)
+- [After Install Script](ais.sh)
 - Updates and Upgrades
 - ~~Blacklist device for persistant wifi on~~
 - Installs latest working nvidia drivers
@@ -48,12 +48,6 @@ Create bootable USB using one of the provided software, using downloaded image o
   - ~~Chromium, Opera~~
 
 
-## 4. Most used commands
-```
-sudo apt-get update && sudo apt-get upgrade
+## 4. Scripts
+[Update](start_update.sh) - Fix missing install files, fix bad install, autoremove dependencies, updates and upgrades
 
-sudo apt-get autoremove
-
-sudo apt-get update --fix-missing
-sudo apt-get install -f
-```
